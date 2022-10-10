@@ -43,6 +43,7 @@ footer ul li a{
 @media screen and (max-width:576px){
   #Project img{
     width: 100px
+      display:none;
   }
   form{
     width: 80%;
