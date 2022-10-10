@@ -41,7 +41,10 @@ footer ul li a{
 }
 
 @media screen and (max-width:576px){
-  #Project img{
+ *{
+   overflow-x:hidden;
+  }
+   #Project img{
     width: 100px;
       display:none;
   }
