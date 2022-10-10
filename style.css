@@ -42,12 +42,18 @@ footer ul li a{
 
 @media screen and (max-width:720px){
    #Project img{
-    width: 125px;
-    overflow-x:hidden;
+    width: 130px;
   }
   form{
     width: 80%;
     margin: auto;
+  }
+  .row{
+   background-color: rgb(81, 124, 161); 
+  }
+  .col-4{
+   background-color: #1d1d1d;
+   overflow-x: hidden;
   }
 }
 
