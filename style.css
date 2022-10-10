@@ -41,11 +41,9 @@ footer ul li a{
 }
 
 @media screen and (max-width:720px){
- *{
-   overflow-x:hidden;
-  }
    #Project img{
     width: 125px;
+    overflow-x:hidden;
   }
   form{
     width: 80%;
