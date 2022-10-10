@@ -15,7 +15,7 @@ body {
 }
 
 #Project img {
-  width: 65%;
+  width: 70%;
   border: #1d1d1d solid 2px;
 }
 footer{
@@ -43,6 +43,7 @@ footer ul li a{
 @media screen and (max-width:576px){
   #Project img{
     width: 130px;
+    overflow-x:hidden;
   }
   form{
     width: 80%;
