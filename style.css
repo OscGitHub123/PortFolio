@@ -40,7 +40,7 @@ footer ul li a{
   text-decoration:dashed black;
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width:576px){
   #Project img{
     width: 130px;
   }
