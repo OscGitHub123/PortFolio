@@ -40,24 +40,42 @@ footer ul li a{
   text-decoration:dashed black;
 }
 
-@media screen and (max-width:720px){
+@media screen and (max-width:722px){
   body{
+    scroll-behavior: none;
+    scrollbar-width:0;
+  }
+  #Home{
+    background-color:none;
+  }
+  #About{
+    background-color:none;
+  }
+  #Project{
     overflow-x: hidden;
+    background-color:none;
+  }
+  #Project .row{
+   justify-content:space-between;
+   display: flex;
+   background-color:none;
+   align-items: center;
   }
   #Project img{
-    width: 125px;
+    width: 115px;
+    padding:5;
+  }
+  #Contact{
+    margin: auto;
     overflow-x: hidden;
-    z-index:1000;
-    padding: 0;
+    background-color:none;
+    width:99%;
   }
   form{
     margin: auto;
   }
-  #Project .row{
-   width: 90%;
-   justify-content:space-between;
-   display: flex;
-  }
+ 
+ 
 }
 
 /*# sourceMappingURL=style.css.map */
