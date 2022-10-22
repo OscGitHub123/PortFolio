@@ -1,0 +1,112 @@
+html{
+  overflow-x: hidden;
+}
+body {
+  overflow-x: hidden;
+
+}
+
+.wave-top {
+  background-color: white;
+}
+
+#Project img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #c9c6c6;
+}
+
+#Project img {
+  width: 70%;
+  border: #1d1d1d solid 2px;
+}
+.carousel{
+  display: none;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+footer ul{
+  display: flex;
+  position: absolute;
+  bottom: 2px;
+}
+
+footer ul li{
+  list-style: none;
+  padding: 2px;
+}
+
+footer ul li a{
+  font-style: none;
+  padding: 2px;
+  color: #1d1d1d;
+  text-decoration:dashed black;
+}
+
+
+@media screen and (max-width:768px){
+  body{
+    scroll-behavior: none;
+    scrollbar-width:0;
+    overflow-y: hidden;
+    
+  }
+  #Home{
+    background-color:none;
+  }
+  #About{
+    background-color:none;
+  }
+  #Project{
+    overflow-x: hidden;
+    background-color:none;
+  }
+  #Project .row{
+   display: none;
+  }
+.carousel{
+  display:block;
+  width: 70%;
+  margin:auto;
+  margin-top:20px;
+}
+.carousel-control-prev{
+  position: absolute;
+}
+.carousel-control-next{
+  position: absolute;
+
+}
+  #Project img{
+    width: 115px;
+    padding:5;
+    border-radius: 20%;
+  }
+  #Project img:hover{
+    border-radius: 19%;
+  }
+  .tombol-carousel{
+    position: relative;
+    background-color:none;
+    width: 100%;
+    height: 100%;
+
+
+  }
+  #Contact{
+    margin: auto;
+    overflow-x: hidden;
+    background-color:none;
+    width:99%;
+  }
+  form{
+    margin: auto;
+  }
+ 
+ 
+}
+
+/*# sourceMappingURL=style.css.map */  
