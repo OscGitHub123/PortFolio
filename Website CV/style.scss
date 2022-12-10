@@ -1,0 +1,52 @@
+//Font-Family
+$font-family-sans-serif:
+  // Cross-platform generic font family (default user interface font)
+  system-ui,
+  // Safari for macOS and iOS (San Francisco)-apple-system,
+  // Windows
+  "Segoe UI",
+  // Android Roboto,
+  // older macOS and iOS
+  "Helvetica Neue"
+  // Linux
+  "Noto Sans",
+  "Liberation Sans",
+  // Basic web fallback
+  Arial,
+  // Sans serif fallback
+  sans-serif,
+  // Emoji fonts
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+  //Z-index
+$zindex-dropdown:                   1000;
+$zindex-sticky:                     1020;
+$zindex-fixed:                      1030;
+$zindex-offcanvas-backdrop:         1040;
+$zindex-offcanvas:                  1045;
+$zindex-modal-backdrop:             1050;
+$zindex-modal:                      1055;
+$zindex-popover:                    1070;
+$zindex-tooltip:                    1080;
+$zindex-toast:                      1090;
+
+body{
+  overflow-x: hidden;
+  font-family: $font-family-sans-serif;
+}
+
+.wave-top{
+  background-color: white;
+}
+
+#Project img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(201, 198, 198);
+}
+
+#Project img {
+  width: 70%;
+  border: rgb(29, 29, 29) solid 2px;
+}
