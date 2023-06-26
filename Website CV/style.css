@@ -1,0 +1,53 @@
+body {
+  overflow-x: hidden;
+  font-family: system-ui, "Segoe UI", "Helvetica Neue" "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.wave-top {
+  background-color: white;
+}
+
+#Project img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: #c9c6c6;
+}
+
+#Project img {
+  width: 70%;
+  border: #1d1d1d solid 2px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+}
+footer ul{
+  display: flex;
+  position: absolute;
+  bottom: 2px;
+}
+
+footer ul li{
+  list-style: none;
+  padding: 2px;
+}
+
+footer ul li a{
+  font-style: none;
+  padding: 2px;
+  color: #1d1d1d;
+  text-decoration:dashed black;
+}
+
+@media screen and (max-width:720px){
+  #Project img{
+    width: 130px;
+  }
+  form{
+    width: 80%;
+    margin: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
